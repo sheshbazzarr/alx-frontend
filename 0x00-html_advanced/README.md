@@ -1,8 +1,9 @@
 # 0x00. Advanced HTML
 
-concepts 
-html-elements of a web page ()
-[HTML elements of a webpage](/.HTML elements of a webpage.md)
+concepts html-elements of a web page ()
+
+- [HTML elements of a webpage](HTML-elements-of-a-webpage.md)
+
 <details>
     <summary>HTML - elements of a web page </summary>
     Create the foundation of any HTML page.
