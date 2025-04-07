@@ -151,5 +151,199 @@ It is possible to declare any attribute using the data- prefix
 
 ### header Tag 
 - The <header> HTML tag element is used to identify the top of a webpage, article, section, or other segment of a page. The header is normally always the same across all pages of your website.
-    
+
 ![header](header.jpg)
+
+### Usage
+
+- Logo of the website
+- Navigation
+- Search form
+- ...
+
+#### HTML Example
+
+    ```html
+    <body>
+        <header>This is my header</header>
+    </body>
+#### Resources 
+-[header - HTML: Hypertext Markup Language | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/header)
+
+## main tag 
+- The <main> HTML tag is a structural element located generally between the <header> and the <footer> and contains the content of your web page.
+
+![main tag](main.jpg)
+```html
+        ...
+    <body>
+        <header>This is my header</header>
+        <main>
+            This is where I put my content
+        </main>
+    </body>
+
+## footer tag 
+The <footer> HTML tag is a structural element used to identify the footer of a page, article, or section.
+
+![footer tag](footer.jpg)
+
+### Usage
+
+- Copyright information
+- Authorship information
+- Navigation elements
+- Social icons or links
+- ...
+
+### HTML Example
+
+    ```html
+    <body>
+        <header>This is my header</header>
+        <main>
+            This is where I put my content
+        </main>
+        <footer>This is the footer of my page</footer>
+    </body>
+## Resources
+- [footer - HTML: Hypertext Markup Language | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer)
+
+## aside tag 
+The <aside> HTML tag contains additional information related to the main content.
+
+![aside tag](aside.jpg)
+
+### Usage
+
+- Monthly archives
+- List of categories
+- ...
+
+### HTML Example
+
+```html
+<body>
+    ...
+    <main>
+        <section>
+            <article>This is my article 1</article>
+            <article>This is my article 2</article>
+            <article>This is my article 3</article>
+        </section>
+        <aside>
+        </aside>
+    </main>
+    ...
+</body>
+
+## section tag
+- The <section> tag element allows the grouping of related elements. You can usually find a <header> and <footer> attached to a section.
+
+![section tag](section.jpg)
+
+### Usage
+
+- ...
+
+### HTML Example
+
+```html
+<body>
+    ...
+    <main>
+        <section>This is my section 1</section>
+        <section>This is my section 2</section>
+        <section>This is my section 3</section>
+    </main>
+    ...
+</body>
+### Resources
+
+[section: The Generic Section element - HTML: Hypertext Markup Language | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section)
+
+## article tag
+
+An <article> HTML tag represent a self-contained piece of content which could theoretically be distributed to other websites and platforms as a stand-alone unit.
+![article](article.jpg)
+
+### Usage
+
+- Blog posts
+- News articles
+- Product cards
+- Forum posts
+- ...
+
+### HTML Example
+
+```html
+<body>
+    ...
+    <main>
+        <section>
+            <article>This is article 1</article>
+            <article>This is article 2</article>
+        </section>
+    </main>
+    ...
+</body>
+### Resources
+[article: The Article Contents element - HTML: Hypertext Markup Language | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article)
+
+## nav tag
+The <nav> HTML tag is a structural element with navigation links.
+![nag tag](nav.jpg)
+```html
+<body>
+    <header> I'm inside the header
+        <nav>
+          <!-- This is an example of links -->
+          <a href="/">Home</a>
+          <a href="/about">About</a>
+          <a href="/contact">Contact</a>
+          <!-- / -->
+        </nav>
+    <header/>
+    ...
+</body>
+### Resources
+- [nav: The Navigation Section element - HTML: Hypertext Markup Language | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav)
+
+## Headings
+
+
+Headings are used to define a section heading.
+
+- **Type**: Self-closing
+- **Block**: No
+
+> **Warning!** Browsers apply different sizes for each heading in their default CSS rules. Keep in mind that HTML is about content and not the styling. Never use an `h4` after an `h2`. For example, always keep a descendant order (`h1 > h2 > h3…`).
+
+> **Accessibility tip**: Headings are used by voice browsers to help navigate through the webpage.
+
+### HTML Example
+
+```html
+<h1>This is my title level 1</h1>
+<h2>This is my title level 2</h2>
+
+
+
+### Resources
+- [h1–h6: The HTML Section Heading elements - HTML: Hypertext Markup Language | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements)
+
+
+## `<p>` Tag
+
+A `<p>` HTML tag defines a paragraph of text.
+
+- **Type**: Self-closing
+- **Block**: No
+
+> **Warning!** If you need a container to wrap multiple elements, use a `div` instead of `p`. Only use the paragraph tag if your content could be considered a paragraph of text.
+
+### HTML Example
+
+```html
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
